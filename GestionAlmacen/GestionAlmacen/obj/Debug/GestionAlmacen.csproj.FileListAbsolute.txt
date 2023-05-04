@@ -1,0 +1,15 @@
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\bin\Debug\GestionAlmacen.exe.config
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\bin\Debug\GestionAlmacen.exe
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\bin\Debug\GestionAlmacen.pdb
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.csproj.AssemblyReference.cache
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.csproj.SuggestedBindingRedirects.cache
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.FrmInicioSesion.resources
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.Properties.Resources.resources
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.Vistas.FrmMenu.resources
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.csproj.GenerateResource.cache
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.csproj.CoreCompileInputs.cache
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.exe
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.pdb
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.Vistas.FrmMenuProductos.resources
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.Vistas.FrmAddProductos.resources
+C:\Users\p-fquillupangui\Desktop\PROYECTO\GestionAlmacen\GestionAlmacen\obj\Debug\GestionAlmacen.Vistas.FrmCargarProductos.resources
