@@ -46,16 +46,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Vistas\FrmAddProductos.cs">
+    <Compile Include="Vistas\Clientes\FrmCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vistas\FrmAddProductos.Designer.cs">
+    <Compile Include="Vistas\Clientes\FrmCliente.Designer.cs">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Entradas\FrmListaEntradas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Entradas\FrmListaEntradas.Designer.cs">
+      <DependentUpon>FrmListaEntradas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Entradas\FrmMenuEntradas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Entradas\FrmMenuEntradas.Designer.cs">
+      <DependentUpon>FrmMenuEntradas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Entradas\FrmNuevaEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Entradas\FrmNuevaEntrada.Designer.cs">
+      <DependentUpon>FrmNuevaEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Inventario\FrmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Inventario\FrmInventario.Designer.cs">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Productos\FrmAddProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Productos\FrmAddProductos.Designer.cs">
       <DependentUpon>FrmAddProductos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\FrmCargarProductos.cs">
+    <Compile Include="Vistas\Productos\FrmCargarProductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vistas\FrmCargarProductos.Designer.cs">
+    <Compile Include="Vistas\Productos\FrmCargarProductos.Designer.cs">
       <DependentUpon>FrmCargarProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="Vistas\FrmInicioSesion.cs">
@@ -72,16 +102,55 @@
     <Compile Include="Vistas\FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\FrmMenuProductos.cs">
+    <Compile Include="Vistas\Productos\FrmMenuProductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vistas\FrmMenuProductos.Designer.cs">
+    <Compile Include="Vistas\Productos\FrmMenuProductos.Designer.cs">
       <DependentUpon>FrmMenuProductos.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Vistas\FrmAddProductos.resx">
+    <Compile Include="Vistas\Proveedores\FrmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Proveedores\FrmProveedores.Designer.cs">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Salidas\FrmListaSalidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Salidas\FrmListaSalidas.Designer.cs">
+      <DependentUpon>FrmListaSalidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Salidas\FrmMenuSalidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Salidas\FrmMenuSalidas.Designer.cs">
+      <DependentUpon>FrmMenuSalidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Salidas\FrmNuevaSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Salidas\FrmNuevaSalida.Designer.cs">
+      <DependentUpon>FrmNuevaSalida.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\Clientes\FrmCliente.resx">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Entradas\FrmListaEntradas.resx">
+      <DependentUpon>FrmListaEntradas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Entradas\FrmMenuEntradas.resx">
+      <DependentUpon>FrmMenuEntradas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Entradas\FrmNuevaEntrada.resx">
+      <DependentUpon>FrmNuevaEntrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Inventario\FrmInventario.resx">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Productos\FrmAddProductos.resx">
       <DependentUpon>FrmAddProductos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vistas\FrmCargarProductos.resx">
+    <EmbeddedResource Include="Vistas\Productos\FrmCargarProductos.resx">
       <DependentUpon>FrmCargarProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\FrmInicioSesion.resx">
@@ -99,8 +168,20 @@
     <EmbeddedResource Include="Vistas\FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vistas\FrmMenuProductos.resx">
+    <EmbeddedResource Include="Vistas\Productos\FrmMenuProductos.resx">
       <DependentUpon>FrmMenuProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Proveedores\FrmProveedores.resx">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Salidas\FrmListaSalidas.resx">
+      <DependentUpon>FrmListaSalidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Salidas\FrmMenuSalidas.resx">
+      <DependentUpon>FrmMenuSalidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Salidas\FrmNuevaSalida.resx">
+      <DependentUpon>FrmNuevaSalida.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

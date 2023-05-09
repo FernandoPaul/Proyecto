@@ -50,25 +50,27 @@
             // 
             // btn_Entrada
             // 
-            this.btn_Entrada.Location = new System.Drawing.Point(76, 150);
+            this.btn_Entrada.Location = new System.Drawing.Point(273, 193);
             this.btn_Entrada.Name = "btn_Entrada";
             this.btn_Entrada.Size = new System.Drawing.Size(75, 23);
             this.btn_Entrada.TabIndex = 0;
             this.btn_Entrada.Text = "Entrada";
             this.btn_Entrada.UseVisualStyleBackColor = true;
+            this.btn_Entrada.Click += new System.EventHandler(this.btn_Entrada_Click);
             // 
             // btn_Salidas
             // 
-            this.btn_Salidas.Location = new System.Drawing.Point(177, 150);
+            this.btn_Salidas.Location = new System.Drawing.Point(374, 193);
             this.btn_Salidas.Name = "btn_Salidas";
             this.btn_Salidas.Size = new System.Drawing.Size(75, 23);
             this.btn_Salidas.TabIndex = 1;
             this.btn_Salidas.Text = "Salida";
             this.btn_Salidas.UseVisualStyleBackColor = true;
+            this.btn_Salidas.Click += new System.EventHandler(this.btn_Salidas_Click);
             // 
             // btn_Productos
             // 
-            this.btn_Productos.Location = new System.Drawing.Point(177, 192);
+            this.btn_Productos.Location = new System.Drawing.Point(374, 143);
             this.btn_Productos.Name = "btn_Productos";
             this.btn_Productos.Size = new System.Drawing.Size(75, 23);
             this.btn_Productos.TabIndex = 4;
@@ -78,30 +80,33 @@
             // 
             // btn_Clientes
             // 
-            this.btn_Clientes.Location = new System.Drawing.Point(76, 192);
+            this.btn_Clientes.Location = new System.Drawing.Point(273, 143);
             this.btn_Clientes.Name = "btn_Clientes";
             this.btn_Clientes.Size = new System.Drawing.Size(75, 23);
             this.btn_Clientes.TabIndex = 3;
             this.btn_Clientes.Text = "Clientes";
             this.btn_Clientes.UseVisualStyleBackColor = true;
+            this.btn_Clientes.Click += new System.EventHandler(this.btn_Clientes_Click);
             // 
             // btn_Proveedores
             // 
-            this.btn_Proveedores.Location = new System.Drawing.Point(273, 192);
+            this.btn_Proveedores.Location = new System.Drawing.Point(470, 143);
             this.btn_Proveedores.Name = "btn_Proveedores";
             this.btn_Proveedores.Size = new System.Drawing.Size(75, 23);
             this.btn_Proveedores.TabIndex = 5;
             this.btn_Proveedores.Text = "Proveedores";
             this.btn_Proveedores.UseVisualStyleBackColor = true;
+            this.btn_Proveedores.Click += new System.EventHandler(this.btn_Proveedores_Click);
             // 
             // btn_Inventario
             // 
-            this.btn_Inventario.Location = new System.Drawing.Point(273, 150);
+            this.btn_Inventario.Location = new System.Drawing.Point(470, 193);
             this.btn_Inventario.Name = "btn_Inventario";
             this.btn_Inventario.Size = new System.Drawing.Size(75, 23);
             this.btn_Inventario.TabIndex = 2;
             this.btn_Inventario.Text = "Inventario";
             this.btn_Inventario.UseVisualStyleBackColor = true;
+            this.btn_Inventario.Click += new System.EventHandler(this.btn_Inventario_Click);
             // 
             // btn_Salir
             // 
@@ -111,7 +116,7 @@
             this.btn_Salir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Salir.FlatAppearance.BorderSize = 0;
             this.btn_Salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Salir.Location = new System.Drawing.Point(510, 363);
+            this.btn_Salir.Location = new System.Drawing.Point(740, 377);
             this.btn_Salir.Name = "btn_Salir";
             this.btn_Salir.Size = new System.Drawing.Size(48, 47);
             this.btn_Salir.TabIndex = 6;
@@ -167,7 +172,7 @@
             this.btn_Info.FlatAppearance.BorderSize = 0;
             this.btn_Info.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Info.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_Info.Location = new System.Drawing.Point(437, 363);
+            this.btn_Info.Location = new System.Drawing.Point(686, 377);
             this.btn_Info.Name = "btn_Info";
             this.btn_Info.Size = new System.Drawing.Size(48, 47);
             this.btn_Info.TabIndex = 9;
